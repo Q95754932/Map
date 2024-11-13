@@ -134,5 +134,5 @@ if __name__ == "__main__":
         (117.636689097, 35.995920897),
     ]
 
-    # 绘制点位
-    drawer.draw(test_coordinates, color=(0, 255, 0), size=5)
+    # 绘制点位  颜色格式：BGR
+    drawer.draw(test_coordinates, color=(0, 0, 255), size=5)
